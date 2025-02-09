@@ -2,7 +2,7 @@ local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/blood
  
 local PhantomForcesWindow = Library:NewWindow("Hunter | Slap Battles Script")
 
----------------------- Sections ----------------------------------------------
+---------------------- Sections -----------------------------------------------
 local Info = PhantomForcesWindow:NewSection("Info")
 local Script = PhantomForcesWindow:NewSection("Script")
 local Anti = PhantomForcesWindow:NewSection("Anti")
