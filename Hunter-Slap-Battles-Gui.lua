@@ -176,3 +176,6 @@ Script:CreateButton("Gaster Hubs", function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Dusty1234567890/Loader/main/GHUBV0.2.")))()
 end)
 
+Script:CreateButton("OP HUB", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Latundra/GFET/main/script")))()
+end)
