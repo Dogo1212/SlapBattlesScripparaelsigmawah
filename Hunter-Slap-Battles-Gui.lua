@@ -145,7 +145,7 @@ Misc:CreateButton("Slap Farm Metod 2", function()
 end)
 
 Misc:CreateButton("ADMIN ZONE", function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dogo1212/TeleportTheAdminZone/refs/heads/main/AdminZone.lua?token=GHSAT0AAAAAAC3AT5NJ236CWUFFTOYRVZTMZ5JDK7Q"))()
 end)
 ---------------------- Script Section ----------------------------------------
 Script:CreateButton("Infinite Yield FE v6.2", function()
