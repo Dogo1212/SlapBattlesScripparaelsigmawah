@@ -144,13 +144,16 @@ Misc:CreateButton("Slap Farm Metod 2", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro666Pro/slapfarmgui/main/main.lua"))()
 end)
 
+Misc:CreateButton("ADMIN ZONE", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
 ---------------------- Script Section ----------------------------------------
 Script:CreateButton("Infinite Yield FE v6.2", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 end)
 
 Script:CreateButton("Virt Hub", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/vinqDevelops/erwwefqweqewqwe/refs/heads/main/lol.txt'))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Dogo1212/TeleportTheAdminZone/refs/heads/main/AdminZone.lua?token=GHSAT0AAAAAAC3AT5NJBQB25BHOJOO4UNWSZ5JDHOA"))()
 end)
 
 Script:CreateButton("Slap Gui", function()
@@ -168,6 +171,8 @@ end)
 Script:CreateButton("Other Hub", function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Dusty1234567890/TestMain/main/SLAPBATTLESGUI5")))()
 end)
+
 Script:CreateButton("Gaster Hubs", function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Dusty1234567890/Loader/main/GHUBV0.2.")))()
 end)
+
