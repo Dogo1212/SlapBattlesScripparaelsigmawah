@@ -160,7 +160,7 @@ for i = 1, 75000 do
 end
 end)
 
----------------------- Misc Section ----------------------------------------------
+---------------------- Misc Section -----------------------------------------------
 Misc:CreateButton("Slap Farm", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Pro666Pro/SFG_Serverhop/main/main.lua"))()
 end)
