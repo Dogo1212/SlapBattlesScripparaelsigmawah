@@ -73,6 +73,41 @@ Info:CreateButton("Slap Checker", function()
     end
 end)
 
+Info:CreateButton("View Cordenates", function()
+    local player = game.Players.LocalPlayer
+local playerCharacter = player.Character or player.CharacterAdded:Wait()
+
+local function updateCoordinates()
+    local position = playerCharacter.HumanoidRootPart.Position
+    local x = position.X
+    local y = position.Y
+    local z = position.Z
+    local coordsText = string.format("Coordenadas: X = %.2f, Y = %.2f, Z = %.2f", x, y, z)
+
+    -- Crear un 'TextLabel' para mostrar las coordenadas
+    local screenGui = Instance.new("ScreenGui")
+    screenGui.Parent = player.PlayerGui
+
+    local textLabel = Instance.new("TextLabel")
+    textLabel.Size = UDim2.new(0, 200, 0, 50)
+    textLabel.Position = UDim2.new(0, 10, 0, 10)
+    textLabel.Text = coordsText
+    textLabel.TextSize = 20
+    textLabel.BackgroundTransparency = 1
+    textLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+    textLabel.Parent = screenGui
+
+    -- Actualizar las coordenadas cada segundo
+    while true do
+        wait(1)
+        local position = playerCharacter.HumanoidRootPart.Position
+        x, y, z = position.X, position.Y, position.Z
+        textLabel.Text = string.format("Coordenadas: X = %.2f, Y = %.2f, Z = %.2f", x, y, z)
+    end
+end
+
+updateCoordinates()
+end)
 ---------------------- Badges Section ----------------------------------------------
 Badge:CreateButton("Instructions", function()
     game.StarterGui:SetCore("SendNotification", {
