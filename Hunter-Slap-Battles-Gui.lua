@@ -182,6 +182,11 @@ end)
 Misc:CreateButton("ADMIN ZONE", function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dogo1212/TeleportTheAdminZone/refs/heads/main/AdminZone.lua?token=GHSAT0AAAAAAC3AT5NJ236CWUFFTOYRVZTMZ5JDK7Q"))()
 end)
+
+Misc:CreateButton("Slap Farm Whit BOXER", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapFarmScript/refs/heads/main/BoxerFarmRework"))()
+end)
+
 ---------------------- Script Section ----------------------------------------
 Script:CreateButton("Infinite Yield FE v6.2", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
@@ -213,4 +218,8 @@ end)
 
 Script:CreateButton("OP HUB", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/Latundra/GFET/main/script")))()
+end)
+
+Script:CreateButton("INSTA WIN SLAPROYALE (USE IN 0 SECONDS IN PARTIDE)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapRoyale/refs/heads/main/InstantWinScript"))()
 end)
