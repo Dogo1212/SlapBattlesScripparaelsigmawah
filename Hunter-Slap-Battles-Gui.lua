@@ -220,6 +220,6 @@ Script:CreateButton("OP HUB", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/Latundra/GFET/main/script")))()
 end)
 
-Script:CreateButton("INSTA WIN SLAPROYALE (USE IN 0 SECONDS IN PARTIDE)", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapRoyale/refs/heads/main/InstantWinScript"))()
+Script:CreateButton("Scrip FOR SLAP ROYALE!!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Reallyools/Reallyools/refs/heads/main/Slaproyale"))()
 end)
